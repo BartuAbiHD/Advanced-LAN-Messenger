@@ -35,8 +35,8 @@ import subprocess
 
 # Sürüm ve Güncelleme Sabitleri
 VERSION = "1.0.0"
-UPDATE_URL = "https://raw.githubusercontent.com/username/repo/main/version.txt" # GÜNCELLEYİN
-EXE_URL = "https://github.com/username/repo/releases/latest/download/LANMessenger.exe" # GÜNCELLEYİN
+UPDATE_URL = "https://raw.githubusercontent.com/BartuAbiHD/repo/main/version.txt" # GÜNCELLEYİN
+EXE_URL = "https://github.com/BartuAbiHD/repo/releases/latest/download/Advanced_LAN_Messenger.exe" # GÜNCELLEYİN
 
 # Modern tema ayarları
 ctk.set_appearance_mode("dark")  # "light" veya "dark"
@@ -2254,7 +2254,7 @@ class LANMessenger(ctk.CTk, TkinterDnD.DnDWrapper):
             # 1. Yeni dosyayı indir
             import tempfile
             temp_dir = tempfile.gettempdir()
-            new_exe_path = os.path.join(temp_dir, "LANMessenger_new.exe")
+            new_exe_path = os.path.join(temp_dir, "AdvancedLANMessenger_new.exe")
             
             self.add_message(self.tr("system"), "⬇️ Güncelleme indiriliyor, lütfen bekleyin...")
             
